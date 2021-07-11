@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>felxbox</title>
+    <style>
+        .container {
+            height: 400px;
+            border: 2px solid lawngreen;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            font-size: 3em;
+            border: 2px dashed darkviolet;
+        }
+
+        #box-1 {
+            flex-grow: 1;
+        }
+
+        #box-2 {
+            order: 1;
+        }
+
+        .lantainer {
+            display: flex;
+            justify-content: center;
+            width: 700px;
+            height: 600px;
+            border: 1px dashed rebeccapurple;
+        }
+
+        .cox {
+            font-size: 3em;
+            border: 2px dashed red;
+            width: 150px;
+            height: 150px;
+        }
+
+        #cox-box {
+            flex-grow: 2;
+        }
+
+        #coxso {
+            order: 1;
+        }
+
+        .lox {
+            font-size: 3em;
+            width: 300px;
+            height: 250px;
+            border: 2px dotted violet;
+        }
+
+        .santainer {
+            border: 1px solid brown;
+            display: flex;
+            justify-content: center;
+        }
+
+        #mox {
+            flex-grow: 2;
+        }
+
+        #nox {
+            order: 1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>no i am flexible</h1>
+    <div class="container">
+        <div id="box-1" class="box">box-1</div>
+        <div id="box-2" class="box">box-2</div>
+
+    </div>
+    <section>
+        <h1>now i am flex</h1>
+        <div class="lantainer">
+            <div id="coxso" class="cox">cox-1</div>
+            <div id="cox-box" class="cox">cox-2</div>
+            <div class="cox">cox-3</div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <h1>you are my shala</h1>
+        <div class="santainer">
+            <div id="nox" class="lox">box-1</div>
+            <div id="mox" class="lox">box-2</div>
+            <div class="lox">box-3</div>
+        </div>
+    </section>
+</body>
+
+</html>
